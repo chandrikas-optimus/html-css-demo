@@ -1,34 +1,62 @@
-.container {
-    height: 100%;
-}
-.access {
+/************ 1162 * 662 ************/
+.nav {
+    display: inline-block;
     border: 1px solid;
     border-style: ridge;
     box-shadow: 0px 0px 1px #888888;
-    display: block;
-    margin: 0 auto 6px 55px;
-    width: 200px
+    width: 100%;
 }
-.access ul {
-    font-size: 13px;
-    list-style: none;
-    margin: 0 0 0 -0.8125em;
-    padding-left: 0;
+.shipping-text {
+    text-align: center;
+    border: 1px solid;
+    background: gray;
+    box-shadow: 0px 0px 1px gray;
+    line-height: 3;
+    color: whitesmoke;
+    font-weight: bold;
+    text-transform: uppercase;
 }
-.access li {
-    position: relative;
-    padding-left: 11px;
-    margin:0 0 3px 0;
-    display: inline-block;
+.container {
+    padding: 0 0 0 15px;
 }
-.terms-access {
-    border: 1px solid cadetblue;
+.container h2 {
+    font-weight: 100;
+    color: red;
+}
+.container h3 {
+    text-transform: uppercase;
+}
+.categories {
+    width: 100%;
+}
+.sub-category {
+    width: 45%;
+    float: left;
+    border: 1px solid gray;
+    margin: 0 16px 20px;
+    text-align: center;
+    height: 33%;
+}
+.sub-category img {
+    width: 50%;
+    height: 70%;
+}
+.img-caption {
     background: cadetblue;
-    display: block;
-    margin: 0 auto 6px 55px;
-    top: 40px;
-    width: 200px;
-    height: 40px;
+    height: 20%;
+    margin-top: 22px;
+    line-height: 2;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 20px;
 }
-
-
+.attributes {
+    width: 100%;
+}
+.attributes .heading {
+    background-color: #F0F0F0;
+    font-size: 23px;
+    padding: 10px 0 10px 11px;
+    border: 2px solid #e5e5e5;
+     background: -webkit-linear-gradient(top, #ffffff, #e5e5e5);
+ }
